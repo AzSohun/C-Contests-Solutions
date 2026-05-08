@@ -7,9 +7,9 @@ int main()
 
     scanf("%d", &note);
 
-    int need_500_rupees = note * 4;
+    int need_500_rupees_notes = note * 4;
 
-    printf("%d", need_500_rupees);
+    printf("%d", need_500_rupees_notes);
 
     return 0;
 }
