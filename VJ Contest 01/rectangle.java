@@ -5,17 +5,15 @@ public class rectangle {
 
         int x, y;
 
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            x = sc.nextInt();
+            y = sc.nextInt();
 
-        x = sc.nextInt();
-        y = sc.nextInt();
+            int area = x * y;
+            int perimeter = 2 * (x + y);
 
-        int area = x * y;
-        int perimeter = 2 * (x + y);
-
-        System.out.println(area + " " + perimeter);
-
-        sc.close();
+            System.out.println(area + " " + perimeter);
+        }
 
     }
 }
