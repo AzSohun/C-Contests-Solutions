@@ -14,7 +14,7 @@ int main()
 
     if (dominator_rating > everule_rating)
     {
-        printf("Dominator");
+        printf("Dominater");
     }
     else
     {
