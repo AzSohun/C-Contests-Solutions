@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int msint()
+int main()
 {
 
     int x;
